@@ -1,0 +1,10 @@
+[package]
+name = "zenoh-tilde-req-poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.1"
+
+[dev-dependencies]
+zenohd = { path = "zenoh/zenohd", artifact = "bin" }
